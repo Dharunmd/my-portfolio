@@ -39,7 +39,7 @@ export default function ContactSection() {
           {/* Social Icons Left */}
           <div className="flex flex-col space-y-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/dharunmd" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-icon text-2xl text-muted-foreground hover:text-primary"
@@ -48,7 +48,7 @@ export default function ContactSection() {
               <Github size={24} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/dharunmd/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="social-icon text-2xl text-muted-foreground hover:text-primary"
@@ -79,7 +79,7 @@ export default function ContactSection() {
           {/* Center Button */}
           <button 
             className="primary-btn px-12 py-4 rounded-full text-primary-foreground font-semibold text-lg"
-            onClick={() => window.location.href = 'mailto:your.email@example.com'}
+            onClick={() => window.location.href = 'mailto:dharunmd05@gmail.com'}
             data-testid="button-reach-out"
           >
             Reach Out
@@ -87,7 +87,7 @@ export default function ContactSection() {
 
           {/* Email Right (Vertical) */}
           <div className="vertical-text text-muted-foreground text-sm tracking-wider" data-testid="text-email-vertical">
-            your.email@example.com
+            dharunmd05@gmail.com
           </div>
         </motion.div>
       </div>
