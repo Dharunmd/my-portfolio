@@ -1,37 +1,37 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Github, ExternalLink, FileText, Heart, Utensils } from "lucide-react";
+import { Github, ExternalLink, Bot, Droplets, Heart } from "lucide-react";
 
 const projects = [
   {
-    title: "StudyLM",
-    description: "AskYourDoc is a AI-powered web app that allows users to upload documents, generate summaries, and interact with them using AI-powered Q&A.",
-    technologies: ["React", "AI"],
-    icon: FileText,
+    title: "Floor Marking Robot",
+    description: "Designed and programmed an autonomous robot using IR sensors and microcontrollers to detect and follow floor markings, improving navigation precision in defined paths.",
+    technologies: ["Arduino", "C++", "IR Sensors"],
+    icon: Bot,
     gradient: "from-blue-900 to-purple-900",
     iconColor: "text-blue-300",
-    githubUrl: "https://github.com/Aarushi-bhatia/StudyLM",
+    githubUrl: "",
     liveUrl: ""
   },
   {
-    title: "MediSure",
-    description: "Full-stack medical image analysis platform that helps doctors auto-generate diagnostic reports from X-rays and scans, reducing reporting time by 65%",
-    technologies: ["Next.js", "AI"],
+    title: "Portable Atmospheric Water Generator",
+    description: "Developed an innovative device that extracts water from humidity in the air through condensation, providing a sustainable water source solution.",
+    technologies: ["Engineering", "IoT", "Sensors"],
+    icon: Droplets,
+    gradient: "from-cyan-900 to-blue-900",
+    iconColor: "text-cyan-300",
+    githubUrl: "",
+    liveUrl: ""
+  },
+  {
+    title: "Hospital Management System",
+    description: "Built a comprehensive role-based system using Java Swing, JDBC, and MySQL to manage patients, doctors, billing, and pharmacy with secure access controls.",
+    technologies: ["Java", "MySQL", "Swing"],
     icon: Heart,
     gradient: "from-green-900 to-teal-900",
     iconColor: "text-green-300",
-    githubUrl: "https://github.com/Hverma1206/MediSure",
-    liveUrl: ""
-  },
-  {
-    title: "Flavorly",
-    description: "A food delivery experience where taste meets tech. Curated global dishes, clean UI, interactive cart, and a checkout flow smoother than garlic butter.",
-    technologies: ["React", "Node.js"],
-    icon: Utensils,
-    gradient: "from-orange-900 to-red-900",
-    iconColor: "text-orange-300",
-    githubUrl: "https://github.com/Aarushi-bhatia/flavorly",
+    githubUrl: "",
     liveUrl: ""
   }
 ];
@@ -59,7 +59,7 @@ export default function ProjectsSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-center text-muted-foreground mb-16"
         >
-          As a beginner, I'm working on developing my skills through hands-on projects.
+          Building innovative solutions from robotics to healthcare systems, each project demonstrates my passion for solving real-world problems through technology.
         </motion.p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -78,9 +78,9 @@ export default function ProjectsSection() {
                   <div className="text-center">
                     <IconComponent className={`text-4xl ${project.iconColor} mb-2`} size={48} />
                     <div className={`text-sm ${project.iconColor.replace('text-', 'text-')}`}>
-                      {project.title === 'StudyLM' ? 'AI Document Analysis' : 
-                       project.title === 'MediSure' ? 'Medical Image Analysis' : 
-                       'Food Delivery Platform'}
+                      {project.title === 'Floor Marking Robot' ? 'Autonomous Navigation' : 
+                       project.title === 'Portable Atmospheric Water Generator' ? 'Water Generation Tech' : 
+                       'Healthcare Management'}
                     </div>
                   </div>
                 </div>
