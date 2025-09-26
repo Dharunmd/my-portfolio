@@ -5,30 +5,31 @@ import { Code, Database, Settings, FileCode, Cpu, Cloud, GitBranch, Monitor } fr
 
 const skillCategories = [
   {
-    title: "Languages",
+    title: "Programming",
     skills: [
-      { name: "JavaScript", icon: FileCode, color: "bg-yellow-600" },
-      { name: "C++", icon: Code, color: "bg-blue-800" },
       { name: "Java", icon: Cpu, color: "bg-orange-600" },
-      { name: "SQL", icon: Database, color: "bg-blue-500" }
+      { name: "SQL", icon: Database, color: "bg-blue-500" },
+      { name: "HTML", icon: FileCode, color: "bg-orange-500" },
+      { name: "CSS", icon: Code, color: "bg-blue-600" },
+      { name: "Python", icon: FileCode, color: "bg-green-600" },
+      { name: "C", icon: Code, color: "bg-blue-800" }
     ]
   },
   {
-    title: "Frameworks",
+    title: "Databases",
     skills: [
-      { name: "React", icon: Code, color: "bg-cyan-600" },
-      { name: "NodeJS", icon: Settings, color: "bg-green-600" },
-      { name: "Express.js", icon: FileCode, color: "bg-gray-800" },
-      { name: "MongoDB", icon: Database, color: "bg-green-500" }
+      { name: "MySQL", icon: Database, color: "bg-blue-500" },
+      { name: "MongoDB", icon: Database, color: "bg-green-500" },
+      { name: "PostgreSQL", icon: Database, color: "bg-blue-700" }
     ]
   },
   {
-    title: "Tools",
+    title: "Tools & Cloud",
     skills: [
       { name: "AWS", icon: Cloud, color: "bg-orange-500" },
+      { name: "Azure", icon: Cloud, color: "bg-blue-600" },
       { name: "Git", icon: GitBranch, color: "bg-orange-600" },
-      { name: "GitHub", icon: Code, color: "bg-gray-800" },
-      { name: "VSCode", icon: Monitor, color: "bg-blue-600" }
+      { name: "GitHub", icon: Code, color: "bg-gray-800" }
     ]
   }
 ];
