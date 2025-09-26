@@ -27,7 +27,7 @@ export default function HeroSection() {
             className="text-6xl md:text-7xl font-bold gradient-text"
             data-testid="text-hero-name"
           >
-            Your Name
+            Dharun M
           </motion.h2>
           
           <motion.div 
@@ -36,13 +36,13 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="flex items-center space-x-2 text-xl text-muted-foreground"
           >
-            <span>Problem</span>
+            <span>AI</span>
             <motion.div 
               animate={{ opacity: [1, 0, 1] }}
               transition={{ duration: 1, repeat: Infinity }}
               className="w-2 h-6 bg-primary"
             />
-            <span>Solver</span>
+            <span>Developer</span>
           </motion.div>
           
           <motion.p 
@@ -52,7 +52,7 @@ export default function HeroSection() {
             className="text-lg text-muted-foreground max-w-lg leading-relaxed"
             data-testid="text-hero-description"
           >
-            I'm just starting my journey and excited to explore opportunities that help me grow as a developer and problem solver.
+            B.Tech in Artificial Intelligence and Data Science student passionate about building innovative solutions. From robotics to healthcare systems, I love creating technology that makes a difference.
           </motion.p>
         </motion.div>
         
