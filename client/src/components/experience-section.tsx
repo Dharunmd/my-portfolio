@@ -4,30 +4,33 @@ import { useRef } from "react";
 
 const experiences = [
   {
-    title: "Software Intern@DRDO",
+    title: "Java Developer Internship",
     period: "June 2025 - July 2025",
-    location: "Delhi, India",
+    location: "Remote, Chennai",
     description: [
-      "Working on a platform to digitalize transfer operations.",
-      "Collaborating on innovative projects."
+      "One-month remote internship focusing on Java development and backend systems",
+      "Sharpening skills in software engineering best practices and system design",
+      "Working with Java frameworks and database integration"
     ]
   },
   {
-    title: "Mentor@MentorPal",
-    period: "2024 - Present",
+    title: "Deloitte Data Analytics | Virtual Job Simulation",
+    period: "2024",
     location: "Remote",
     description: [
-      "Mentoring students in web development and programming concepts",
-      "Conducting code reviews and technical guidance sessions"
+      "Completed comprehensive data analytics virtual job simulation",
+      "Explored real-world tasks related to data analysis and forensic technology",
+      "Gained understanding of professional data analytics workflows and methodologies"
     ]
   },
   {
-    title: "Core Team Member@GDSC",
+    title: "Tata Data Visualisation | Job Simulation",
     period: "2024",
-    location: "University",
+    location: "Remote",
     description: [
-      "Organizing technical workshops and events",
-      "Contributing to open-source projects and community initiatives"
+      "Successfully completed virtual job simulation in data visualization",
+      "Enhanced skills in storytelling with data and insights generation",
+      "Developed business-oriented reporting and data-driven decision making capabilities"
     ]
   }
 ];
