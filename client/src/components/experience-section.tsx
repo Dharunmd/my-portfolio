@@ -4,6 +4,16 @@ import { useRef } from "react";
 
 const experiences = [
   {
+    title: "Full-stack Internship",
+    period: "July 2025 - September 2025",
+    location: "Hybrid, Chennai",
+    description: [
+      "Full Stack Developer Intern: Developed responsive web apps using React.js and Node.js/Express with RESTful APIs.",
+      "Managed databases, authentication, and optimized performance for seamless user experience.",
+      
+    ]
+  },
+  {
     title: "Java Developer Internship",
     period: "June 2025 - July 2025",
     location: "Remote, Chennai",

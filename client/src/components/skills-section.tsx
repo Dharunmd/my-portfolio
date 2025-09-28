@@ -12,7 +12,7 @@ const skillCategories = [
       { name: "HTML", icon: FileCode, color: "bg-orange-500" },
       { name: "CSS", icon: Code, color: "bg-blue-600" },
       { name: "Python", icon: FileCode, color: "bg-green-600" },
-      { name: "C", icon: Code, color: "bg-blue-800" }
+      { name: "C++", icon: Code, color: "bg-blue-800" }
     ]
   },
   {
